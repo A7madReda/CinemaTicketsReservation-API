@@ -9,3 +9,5 @@ Install Project Steps
 Install Django Rest Framework
 6. pipenv install djangorestframework
 
+Install Tickets App
+1. django-admin startapp ticke
