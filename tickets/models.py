@@ -8,7 +8,7 @@ class Movie(models.Model):
 
 class Guest(models.Model):
     name = models.CharField(max_length=200)
-    phone = models.IntegerField()
+    phone = models.CharField(max_length=200)
     
 
 class Reservition(models.Model):
