@@ -10,5 +10,5 @@ urlpatterns = [
     path('django/jsonresponsenomodel/',views.no_rest_no_model),
     
     #2
-    path('django/jsonresponsefrommodel/',views.no_rest_form_model),
+    path('django/jsonresponsefrommodel/',views.no_rest_from_model),
 ]
