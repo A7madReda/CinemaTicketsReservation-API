@@ -11,4 +11,8 @@ urlpatterns = [
     
     #2
     path('django/jsonresponsefrommodel/',views.no_rest_from_model),
+    
+    #3 GET POST FROM REST @api_view
+    path('rest/FBVList/',views.FBV_List),
+
 ]

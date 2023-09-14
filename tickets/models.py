@@ -12,5 +12,5 @@ class Guest(models.Model):
     
 
 class Reservition(models.Model):
-    guest = models.ForeignKey(Guest, related_name='reservtion', on_delete=models.CASCADE)
-    guest = models.ForeignKey(Movie, related_name='reservtion', on_delete=models.CASCADE)
+    guest = models.ForeignKey(Guest, related_name='reservition', on_delete=models.CASCADE)
+    movie = models.ForeignKey(Movie, related_name='reservition', on_delete=models.CASCADE)
