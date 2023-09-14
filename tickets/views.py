@@ -57,5 +57,5 @@ def FBV_List(request):
     
     
     
-print ("test discord notifcations")
+print ("test discord notifcation")
     
